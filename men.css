@@ -1,0 +1,118 @@
+/* men.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #030b4cf5;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.header a:hover{
+  color: #a9b2f5f5;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #030b4cf5;
+}
+
+.perfume {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.perfume-item {
+  width: calc(50% - 20px); /* Adjust as needed */
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.perfume-item img {
+  width: 100%; /* Set width to fill container */
+  height: 200px; /* Set fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+  border-radius: 5px;
+}
+
+.perfume-item h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.perfume-item p {
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.perfume-item form {
+  margin-top: 10px;
+}
+
+.perfume-item input[type="submit"] {
+  display: inline-block;
+  width: auto;
+  padding: 10px 20px;
+  background-color: #030b4cf5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.perfume-item input[type="submit"]:hover {
+  background-color: #a9b2f5f5;
+  color: #030b4cf5;
+}
+.name{
+  color:#030b4cf5;
+  text-align: center;
+}
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: 3px solid #030b4cf5;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+#searchInput:hover{
+  background: #030b4cf5;
+  color:#fff;
+  border: 3px solid #030b4cf5;
+
+}
